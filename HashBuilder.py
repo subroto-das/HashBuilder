@@ -1,10 +1,11 @@
-# This is a hacking tool, which can coovert your password/code/plain text to Hash (Encrypted).
+# This is a simple python tool, which can coovert your password/code/plain text to Hash (Encrypted).
 # This is created by Subroto Das (Tr0j@n_Pr!nc3)
 # Thanks for reading...
 
+# module used
 import hashlib
 
-#colours used
+# colours used
 red = '\033[31m'
 yellow = '\033[93m'
 lgreen = '\033[92m'
@@ -16,7 +17,7 @@ white = '\033[97m'
 blue = '\033[94m'
 gray = '\033[90m'
 
-#banner of the tool
+# banner of the script
 print(red + bold+"""
 ================================================================================================================""" + lgreen + bold + """
          _   _              _             ______         _  _      _
